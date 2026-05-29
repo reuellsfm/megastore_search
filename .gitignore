@@ -1,0 +1,21 @@
+# Arquivos compilados do Rust
+/target/
+
+# Lock file - opcional para libraries, recomendado para binários
+# Cargo.lock
+
+# Backups
+**/*.rs.bk
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de entrega
+*.pdf
+COMO_PUBLICAR_NO_GITHUB.md

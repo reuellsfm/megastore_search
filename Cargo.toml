@@ -1,0 +1,25 @@
+[package]
+name = "megastore_search"
+version = "0.1.0"
+edition = "2021"
+authors = ["Reuell Serafim de Lima Queiroz"]
+description = "Sistema de busca otimizado para o catálogo de produtos da MegaStore"
+license = "MIT"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+
+[dev-dependencies]
+# nada extra necessário — usamos só a stdlib + serde para os testes
+
+[[bin]]
+name = "megastore_search"
+path = "src/main.rs"
+
+[lib]
+name = "megastore_search"
+path = "src/lib.rs"
+
+[profile.release]
+opt-level = 3
+lto = true
