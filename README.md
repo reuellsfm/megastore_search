@@ -285,5 +285,5 @@ Este projeto está sob a licença **MIT** — veja o arquivo `Cargo.toml` para d
 
 ## Autor
 
-**Reuell Serafim de Lima Queiroz**
+**Reuel S.**
 Disciplina: Data Structures Strategy and Implementation · 2026
